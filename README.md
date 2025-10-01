@@ -52,7 +52,7 @@ Check out the live demo: [Youtube Link](https://youtu.be/SdECErtB47U)
 ## Actions
 - **track_order**: On-call action linked with `get_order` API to provide order status updates.
 - **initiate_refund**: On-call action integrated with `refunds` API for refund processing.
-- Both actions use variables (e.g., `order_id`, `status`) and trigger flows for Twilio SMS notifications.
+- Both actions use variables (e.g., `order_id`, `status`) and trigger flows.
 
 ---
 
