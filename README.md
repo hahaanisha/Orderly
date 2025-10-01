@@ -1,7 +1,13 @@
+<p align="center">
+  <img src="readme_img/title.png" alt="Demo" width="500" />
+</p>
+
 # Orderly - Inya.AI Buildathon 2025
 
 ## Overview
-Orderly is an AI-powered support bot developed for the Inya.ai Buildathon 2025. The agent handles **order tracking, refunds, complaints, and returns** across **voice, chat, and SMS channels**. It integrates custom APIs deployed on Render, uses Twilio for SMS notifications, and leverages a JSON Knowledge Base (KB) for mock data. The bot authenticates users, retrieves and updates order information, creates service requests, and provides clear, actionable responses in a friendly and engaging tone.
+Orderly is an AI-powered support bot developed for the Inya.ai Buildathon 2025. The agent handles **order tracking, refunds, complaints, and returns** across **voice and chat**. It integrates custom APIs deployed on Render and leverages a JSON Knowledge Base (KB) for mock data. The bot authenticates users, retrieves and updates order information, creates service requests, and provides clear, actionable responses in a friendly and engaging tone.
+
+Check out the live demo: [Youtube Link](https://youtu.be/SdECErtB47U)
 
 ---
 
@@ -18,8 +24,8 @@ Orderly is an AI-powered support bot developed for the Inya.ai Buildathon 2025. 
 ## Setup Instructions
 1. **Inya.ai Account**: Sign up at [app.inya.ai](https://app.inya.ai) and create a new agent.
 2. **Render APIs**: Deploy custom APIs (`get_order`, `refunds`, `complaints`, `returns`) on Render (created on Sep 28, 2025).
-3. **Knowledge Base Upload**: Upload `db.json` as the KB in Inya.ai.
-4. **Run Demo**: Test via the **Inya.ai Test tab** or send an SMS to the configured **Twilio number**.
+3. **Knowledge Base Upload**: Upload `kb.json` as the KB in Inya.ai.
+4. **Run Demo**: Test via the **Inya.ai Test tab**
 
 ---
 
@@ -50,10 +56,25 @@ Orderly is an AI-powered support bot developed for the Inya.ai Buildathon 2025. 
 
 ---
 
+## Example Queries  
+
+You can ask **Orderly** the following types of queries:  
+
+1. Give me order details of order: `ORD001`  
+2. Give me tracking ID of order `ORD001`  
+3. Give me the items in order `ORD001`  
+4. Give me ETA for `ORD001`  
+5. Initiate a refund for `ORD001`  
+6. Register a complaint for `ORD001`  
+7. Call your customer support agent  
+
+---
+
 ## Output Images
-- ![Inya.ai Configurations](./readme_img/configurations.png)
-- ![Integrations Setup](./readme_img/integrations.png)
-- ![Actions Tab](./readme_img/actions.png)
+![chat-output](readme_img/chatOP1.png)
+![chat-output](readme_img/chatOP2.png)
+![chat-output](readme_img/chatOP3.png)
+![chat-output](readme_img/refund.png)
 
 ---
 
@@ -70,5 +91,6 @@ This project is for **Inya.ai Buildathon 2025** purposes and may not be used com
 
 ## Contact
 For questions or collaboration:  
-- Email: [your_email@example.com]  
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com)
+- Email: teaminspire2226@gmail.com 
+- LinkedIn: [Tejas Gadge](https://www.linkedin.com/in/tejas-gadge-8a395b258/) & [Anisha Shankar](https://www.linkedin.com/in/anisha-shankar-/)
+
